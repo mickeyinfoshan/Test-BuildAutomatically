@@ -1,0 +1,31 @@
+{
+  "name": "demo06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "karma": "^0.13.14"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "css-loader": "^0.21.0",
+    "gulp-webpack": "^1.5.0",
+    "jasmine-core": "^2.3.4",
+    "jasmine-react": "^1.1.0",
+    "jasmine-react-helpers": "^0.2.2",
+    "karma": "^0.13.14",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.6",
+    "karma-webpack": "^1.7.0",
+    "log4js": "^0.6.27",
+    "node-sass": "^3.4.1",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2"
+  }
+}
