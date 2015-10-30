@@ -9,10 +9,8 @@ module.exports = function(config) {
       './**/*.test.js' : ['webpack'],
     },
     reporters: ['dots'],
-    singleRun: true,
     webpack: {
-      module : webpackConfig.module,
-      watch : false
+      module : Object.create(webpackConfig.module)
     },
     webpackServer: {
       noInfo: true,

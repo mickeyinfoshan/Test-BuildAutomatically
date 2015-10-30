@@ -9,7 +9,7 @@ var Hello = React.createClass({
 	render: function() {
 		return (
 			<div>
-				aaaabb
+				aaacddaaa
 			</div>
 		);
 	}
