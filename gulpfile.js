@@ -5,6 +5,7 @@ var exec = require('child_process').exec;
 var webpackConfig = require("./webpack.config.js");
 var gutil = require("gulp-util");
 var WebpackDevServer = require("webpack-dev-server");
+var git = require('gulp-git');
 
 gulp.task('test-then-build', function (done) {
   new KarmaServer({

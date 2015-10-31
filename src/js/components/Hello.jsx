@@ -3,7 +3,7 @@ var React = require('react');
 var Hello = React.createClass({
 	getInitialState: function() {
 		return {
-			number : 42 
+			number : 48 
 		};
 	},
 	render: function() {
