@@ -12,7 +12,7 @@ module.exports =  {
   			done(!exitCode);
   		}).start();
 	},
-	dev_env : function() {
+	beforeTest : function() {
 		var myConfig = Object.create(webpackConfig);
   		myConfig.devtool = "eval";
   		myConfig.debug = true;
@@ -27,7 +27,7 @@ module.exports =  {
    			console.log("[webpack-dev-server]", "http://localhost:8080/webpack-dev-server/index.html");
   		});
 	},
-	production_build : function(done) {
+	afterTest : function(done) {
 		var myConfig = Object.create(webpackConfig);
   		myConfig.plugins = myConfig.plugins.concat(
     		new webpack.DefinePlugin({
